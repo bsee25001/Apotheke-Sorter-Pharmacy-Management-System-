@@ -20,7 +20,16 @@ void menu(){
     } while(choice != 0);
 
 } 
+// NORMAL TOTAL
+float calculateTotal(float *total, int n) {
 
+    float sum = 0;
+
+    for(int i = 0; i < n; i++)
+        sum += total[i];
+
+    return sum;
+}
 // recursive total
 float recursiveTotal(float *total, int n) {
 
