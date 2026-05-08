@@ -20,6 +20,8 @@ void menu(){
     } while(choice != 0);
 
 } 
+
+// recursive total
 float recursiveTotal(float *total, int n) {
 
     if(n == 0)
@@ -29,6 +31,9 @@ float recursiveTotal(float *total, int n) {
 }
 
 // Stores the bill records in txtfile
+// n for size of an array, name for medicine name, qty for medicines qty, each medicines
+// price and total for each medicine category and grand total sum of all medicines price
+// it will store the records
 void saveToFile(int n,string name[],int qty[],float price[],float total[],float grandTotal) {
 
     ofstream file("bills.txt", ios::app);
@@ -54,6 +59,7 @@ void saveToFile(int n,string name[],int qty[],float price[],float total[],float 
 // function to write to a json file 
 // n for size of an array, name for medicine name, qty for medicines qty, each medicines
 // price and total for each medicine category and grand total sum of all medicines price
+// it will store the records
 void saveJSON(int n,string name[],int qty[],float price[],float total[],float grandTotal) {
 
     json bill;
@@ -77,7 +83,7 @@ void saveJSON(int n,string name[],int qty[],float price[],float total[],float gr
 
     file.close();
 }
-// function to view sales
+// function to view all sales
 void viewSales(){
     ifstream file("bills.txt");
     if(!file){ // no file condition
