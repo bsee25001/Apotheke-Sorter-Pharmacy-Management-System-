@@ -1,7 +1,7 @@
-#include "function.h"
+#include "finance.h"
 
 int main(){
-
+menu();
 
 return 0;
 }
