@@ -8,12 +8,13 @@
 using namespace std;
 using json = nlohmann::json;
 
+// Function declarations
 void menu();
 void generateBill();
-float calculateTotal(float* , int);
-float recursiveTotal(float* , int);
-void saveToFile(int, string[], int[], float[], float[],float[]);
-void saveJson(int, string[], int[], float[], float[],float[]);
+float calculateTotal(float*, int);
+float recursiveTotal(float*, int);
+void saveToFile(int, string[], int[], float[], float[], float);
+void saveJSON(int, string[], int[], float[], float[], float);
 void viewSales();
 float applyDiscount(float);
 float addTax(float);
