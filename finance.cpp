@@ -2,29 +2,34 @@
 
 int billCounter = 1000;
 
-void menu(){
+void menu() {
     int choice;
-    do{
-      
 
+    do {
+        cout << "\n===== Finance & Billing =====\n";
+        cout << "1. Generate Bill\n";
+        cout << "2. View Sales\n";
+        cout << "0. Exit\n";
+        cout << "Enter choice: ";
+        cin >> choice;
 
+        switch(choice) {
+            
+            case 1: generateBill(); 
+            break;
+            case 2: viewSales(); 
+            break;
 
-
-
-
-
-
-
-
+        }
 
     } while(choice != 0);
+}
 
-} 
 // NORMAL TOTAL
 float calculateTotal(float *total, int n) {
-
+    
     float sum = 0;
-
+    
     for(int i = 0; i < n; i++)
         sum += total[i];
 
