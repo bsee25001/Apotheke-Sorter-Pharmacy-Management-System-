@@ -1,7 +1,11 @@
-#include "function.h"
+#include "comparison.h"
 
-int main(){
-
-
-return 0;
+int main() {
+    // Seed random for price simulation
+    srand(time(0)); 
+    
+    // Launch the module
+    comparisonModuleMenu();
+    
+    return 0;
 }

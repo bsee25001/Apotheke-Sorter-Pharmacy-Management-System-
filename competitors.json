@@ -1,0 +1,24 @@
+{
+    "competitors": [
+        { "name": "Paracetamol 500mg", "pharmacyA": 109, "pharmacyB": 128 },
+        { "name": "Ibuprofen 400mg", "pharmacyA": 173, "pharmacyB": 181 },
+        { "name": "Aspirin 75mg", "pharmacyA": 93, "pharmacyB": 99 },
+        { "name": "Diclofenac Gel", "pharmacyA": 338, "pharmacyB": 364 },
+        { "name": "Naproxen 250mg", "pharmacyA": 221, "pharmacyB": 224 },
+        { "name": "Amoxicillin 500mg", "pharmacyA": 292, "pharmacyB": 310 },
+        { "name": "Azithromycin 250mg", "pharmacyA": 448, "pharmacyB": 451 },
+        { "name": "Ciprofloxacin 500mg", "pharmacyA": 404, "pharmacyB": 407 },
+        { "name": "Metronidazole 400mg", "pharmacyA": 246, "pharmacyB": 258 },
+        { "name": "Cephalexin 500mg", "pharmacyA": 358, "pharmacyB": 376 },
+        { "name": "Vitamin C 1000mg", "pharmacyA": 503, "pharmacyB": 506 },
+        { "name": "Vitamin D3", "pharmacyA": 645, "pharmacyB": 650 },
+        { "name": "Multivitamin Tablets", "pharmacyA": 840, "pharmacyB": 853 },
+        { "name": "Calcium Supplements", "pharmacyA": 697, "pharmacyB": 714 },
+        { "name": "Omega 3 Capsules", "pharmacyA": 1193, "pharmacyB": 1209 },
+        { "name": "Metformin 500mg", "pharmacyA": 282, "pharmacyB": 280 },
+        { "name": "Insulin Injection", "pharmacyA": 2486, "pharmacyB": 2512 },
+        { "name": "Glucose Test Strips", "pharmacyA": 1799, "pharmacyB": 1801 },
+        { "name": "Gliclazide 80mg", "pharmacyA": 323, "pharmacyB": 334 },
+        { "name": "Blood Sugar Monitor", "pharmacyA": 3499, "pharmacyB": 3511 }
+    ]
+}
