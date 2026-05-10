@@ -1,0 +1,24 @@
+{
+    "competitors": [
+        {
+            "name": "Paracetamol 500mg",
+            "pharmacyA": 115,
+            "pharmacyB": 125
+        },
+        {
+            "name": "Ibuprofen 400mg",
+            "pharmacyA": 185,
+            "pharmacyB": 190
+        },
+        {
+            "name": "Metformin 500mg",
+            "pharmacyA": 275,
+            "pharmacyB": 290
+        },
+        {
+            "name": "Insulin Injection",
+            "pharmacyA": 2400,
+            "pharmacyB": 2600
+        }
+    ]
+}
